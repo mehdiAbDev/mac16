@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Mac</title>
+    <style>
+      * {
+        /* outline: 1px dotted red; */
+      }
+      body {
+        background-color: #222;
+      }
+      
+      .order {
+        background-color: rgb(168,167,172);
+        border: 3px solid rgb(168,167,172);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay absolute top-0 w-1/2 h-screen bg-transparent lg:bg-zinc-900 -z-10 "></div>
+    <nav class="flex justify-center items-center p-6 gap-7">
+      <img
+        class="w-[64px] invert"
+        src="imgs/logo.png"
+        alt=""
+        />
+        <div class="links mx-auto flex gap-8">
+
+            <a href="" class="text-white text-[14px] transform hover:translate-y-1 transition-transform duration-300 ">Laptops</a>
+            <a href="" class="text-white text-[14px] transform hover:translate-y-1 transition-transform duration-300">About Us</a>
+            <a href="" class="text-white text-[14px] transform hover:translate-y-1 transition-transform duration-300">Service & Support</a>
+        </div>
+    </nav>
+    </div>
+    <div class="flex flex-col  lg:flex-row">
+      <div id="firstsection" class="lg:w-1/2 bg-zinc-900 p-6">
+        <h3 class="text-gray-700 text-2xl lg:text-3xl">Unleash your powers. <br><span class="text-white font-bold text-3xl lg:text-6xl">M2 Pro.</span></h3>
+        <p class="my-6 text-white">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          dicta, error,perferendis, est voluptatem maxime modi a inventore
+          facere maiores libero dolorum quia alias illum dolor deleniti eos
+          porro ex! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Architecto assumenda velit explicabo veritatis neque cupiditate vel
+          fuga optio! Itaque corporis asperiores doloremque laborum inventore
+          distinctio ad quis neque odio voluptatum?
+        </p>
+        <div class="buttons flex justify-center gap-3 mb-5">
+          <button class="order px-5 rounded-md py-2 text-white hover:bg-transparent transition-colors duration-300">Order Now</button>
+          <button class="border-2  px-2 rounded-md text-white " style="border-color: rgb(168,167,172);">Configure Yours</button>
+        </div>
+        <div class="imgs relative top-0 ">
+          <img class="absolute z-10 w-1/2 left-1/4 top-1/4 backdrop-blur-sm" src="imgs/laptop1.png" alt="" />
+          <svg
+            class="blur-3xl"
+            xmlns="http://www.w3.org/2000/svg"
+            id="SvgjsSvg1131"
+            x="0"
+            y="0"
+            version="1.1"
+            viewBox="0 0 499.772 499.772"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.dev/svgjs"
+          >
+            <path
+              d="M492.692 223.646 394.345 52.979a53.123 53.123 0 0 0-46.08-26.667H151.572a53.12 53.12 0 0 0-46.08 26.027L7.145 223.006a53.333 53.333 0 0 0 0 53.333l98.347 170.667a53.332 53.332 0 0 0 46.08 26.453h196.693a53.334 53.334 0 0 0 46.08-25.813l98.347-170.667a53.76 53.76 0 0 0 0-53.333z"
+              fill="rgba(81, 77, 77, 1)"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <div id="secondsection" class="relative flex flex-col lg:w-1/2">
+        <img src="imgs/laptop.png" alt="" />
+        <div class="infos mt-auto">
+          <div
+            class="rate w-fit absolute top-0 transform translate-x-[100%] lg:translate-x-[200%]" style="background-color: rgb(168,167,172); text-align: center;"
+          >
+            <div class="stars px-5 py-2">
+              <i class="fa fa-star invert" aria-hidden="true"></i>
+              <i class="fa fa-star invert" aria-hidden="true"></i>
+              <i class="fa fa-star invert" aria-hidden="true"></i>
+              <i class="fa fa-star invert" aria-hidden="true"></i>
+            </div>
+            <h1>1000+ rates</h1>
+          </div>
+          <div class="specs flex justify-around p-6">
+            <div class="cores">
+              <span class="text-white font-bold">19</span>
+              <p class="text-gray-500">Core</p>
+            </div>
+            <div class="display">
+              <span class="text-white font-bold">16.2 Inch</span>
+              <p class="text-gray-500">Screen Size</p>
+            </div>
+            <div class="charging">
+              <span class="text-white font-bold">16 GB</span>
+              <p class="text-gray-500">Memory</p>
+            </div>
+            <div class="weight">
+              <span class="text-white font-bold">1080p</span>
+              <p class="text-gray-500">Camera</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/4cd15b6dbc.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
